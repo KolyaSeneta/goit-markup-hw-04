@@ -4,6 +4,7 @@
     --secondary-color: #2196F3;
     --bg-white: #FFFFFF;
     --bg-icons: #F5F4FA;
+    --fill-svg: #AFB1B8;
 }
 
 body {
@@ -178,18 +179,11 @@ header {
     color: var(--secondary-color)
 } */
 
-.icon-mail {
-    margin-right:10px;
-}
-.header-mail
-/* .icon-mail:hover,
-.icon-mail:focus {
-    fill: #2196F3;
-} */
-
 .icon-phone {
+    display: flex;
     margin-right: 10px;
 }
+
 /* promo */
 
 .features-box {
@@ -435,13 +429,17 @@ header {
  width: 44px;
  height: 44px;
 border-radius: 50%;
+fill:  var(--fill-svg);
+}
 /* background-color: var(--bg-white); */
 
 
+/* .icon-team {
+    fill: var(--fill-svg);
+} */
 
-}
-.icon-team:hover,
-.icon-team:focus {
+.icon-team-link:hover,
+.icon-team-link:focus {
     fill:  var(--bg-white);
     background-color: var(--secondary-color);
     border-radius: 50%;
@@ -529,7 +527,7 @@ address {
     display: flex;
         justify-content: center;
         align-items: center;
-        color: var(--bg-white);
+        fill:var(--bg-white);
         width: 44px;
         height: 44px;
         border-radius: 50%;
@@ -642,6 +640,7 @@ address {
     height: 92px;
     border: 1px solid #AFB1B8;
      border-radius: 4px;
+    fill: var(--fill-svg);
 }
 
 .icons-clients {

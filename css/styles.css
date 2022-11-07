@@ -171,26 +171,30 @@ header {
     gap: 10px;
 }
 
-.icon-phone {
-    fill: var(--fill-svg);
+.icon-phone, .icon-mail {
+    fill: currentColor;
 }
 
-.icon-mail {
+/* .icon-mail {
     fill: var(--fill-svg);
-}
+} */
 
 .header-link-feedback:hover,
 .header-link-feedback:focus {
     color: var(--secondary-color);
+    
 }
-.icon-phone:hover,
+/* .icon-phone:hover,
 .icon-phone:focus {
     fill: var(--secondary-color);
-}
+} */
+/* }
 .icon-mail:hover,
 .icon-mail:focus {
     fill: var(--secondary-color);
-}
+} */
+
+
 /* promo */
 
 .features-box {
@@ -516,6 +520,9 @@ fill:  var(--fill-svg);
 
 /* footer */
 /* social */
+footer {
+    display: flex;
+}
 address {
     display: flex;
 }

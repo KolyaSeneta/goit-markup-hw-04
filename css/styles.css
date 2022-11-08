@@ -395,6 +395,7 @@ header {
     background: #FFFFFF;
     letter-spacing: 0.03em;
     display: block;
+    padding-top: 0px;
     /* align-items: center; */
     /* justify-content: center; */
     /* padding-bottom: 94px; */
